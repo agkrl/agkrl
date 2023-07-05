@@ -1,4 +1,6 @@
 ### Hi there 👋
+[https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl]
+
 
 <!--
 **agkrl/agkrl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
