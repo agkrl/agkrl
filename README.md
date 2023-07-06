@@ -5,9 +5,8 @@
 
 ![Snake animation](https://github.com/agkrl/agkrl/blob/output/github-contribution-snake.svg)
 
-[![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
-
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://leetcode.com/agkrl/)
+<!-- [![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl) -->
+<!-- [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://leetcode.com/agkrl/) -->
 
 
 <img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
@@ -37,12 +36,7 @@
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=agkrl&theme=dark&background=000000)](https://git.io/streak-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=agkrl&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
-
-<!-- BLOG-POST-LIST:START -->
-
-<!-- BLOG-POST-LIST:END -->
 
 <!--
 **agkrl/agkrl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
