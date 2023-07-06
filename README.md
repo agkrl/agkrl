@@ -1,5 +1,7 @@
 ### Hi there 👋
 <a href="https://vk.com/agkrl"><img src="https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge" alt="vkontakte" /><a/>
+<a href="https://tg.com"><img src="https://img.shields.io/badge/Телеграм-29AAEC?logo=telegram&logoColor=white&style=for-the-badge" alt="telegram" /><a/>
+<a href="https://vk.com/agkrl"><img src="https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge" alt="vkontakte" /><a/>
 
 ![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg)
 
