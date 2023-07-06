@@ -5,6 +5,8 @@
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
+<img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
+
 <img src="https://github.com/agkrl/icons/blob/main/babel.svg" width="64" height="64" alt="babel" />
 <img src="https://github.com/agkrl/icons/blob/main/bootstrap.svg" width="64" height="64" alt="bootstrap" />
 <img src="https://github.com/agkrl/icons/blob/main/css.svg" width="64" height="64" alt="css" />
