@@ -7,7 +7,7 @@
 
 [![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
 
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://github.com/agkrl/github-readme)
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://leetcode.com/agkrl/)
 
 
 <img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
