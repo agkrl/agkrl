@@ -1,27 +1,28 @@
 ### Hi there 👋
 ![https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl!](https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl)
 
-<img src="https://github.com/agkrl/icons/blob/main/babel.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/bootstrap.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/css.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/docker.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/figma.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/git.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/golang.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/html.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/js.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/nginx.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/nodejs.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/npm.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/photoshop.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/python.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/react.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/sass.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/tailwind.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/vscode.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/vue.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/webpack.svg" width="64" src="babel" />
-<img src="https://github.com/agkrl/icons/blob/main/windows.svg" width="64" src="babel" />
+<img src="https://github.com/agkrl/icons/blob/main/babel.svg" width="64" height="64" alt="babel" />
+<img src="https://github.com/agkrl/icons/blob/main/bootstrap.svg" width="64" height="64" alt="bootstrap" />
+<img src="https://github.com/agkrl/icons/blob/main/css.svg" width="64" height="64" alt="css" />
+<img src="https://github.com/agkrl/icons/blob/main/docker.svg" width="64" height="64" alt="docker" />
+<img src="https://github.com/agkrl/icons/blob/main/figma.svg" width="64" height="64" alt="figma" />
+<img src="https://github.com/agkrl/icons/blob/main/git.svg" width="64" height="64" alt="git" />
+<img src="https://github.com/agkrl/icons/blob/main/golang.svg" width="64" height="64" alt="golang" />
+<img src="https://github.com/agkrl/icons/blob/main/html.svg" width="64" height="64" alt="html" />
+<img src="https://github.com/agkrl/icons/blob/main/js.svg" width="64" height="64" alt="js" />
+<img src="https://github.com/agkrl/icons/blob/main/nginx.svg" width="64" height="64" alt="nginx" />
+<img src="https://github.com/agkrl/icons/blob/main/nodejs.svg" width="64" height="64" alt="nodejs" />
+<img src="https://github.com/agkrl/icons/blob/main/npm.svg" width="64" height="64" alt="npm" />
+<img src="https://github.com/agkrl/icons/blob/main/photoshop.svg" width="64" height="64" alt="photoshop" />
+<img src="https://github.com/agkrl/icons/blob/main/python.svg" width="64" height="64" alt="python" />
+<img src="https://github.com/agkrl/icons/blob/main/react.svg" width="64" height="64" alt="react" />
+<img src="https://github.com/agkrl/icons/blob/main/sass.svg" width="64" height="64" alt="sass" />
+<img src="https://github.com/agkrl/icons/blob/main/tailwind.svg" width="64" height="64" alt="tailwind" />
+<img src="https://github.com/agkrl/icons/blob/main/vscode.svg" width="64" height="64" alt="vscode" />
+<img src="https://github.com/agkrl/icons/blob/main/vue.svg" width="64" height="64" alt="vue" />
+<img src="https://github.com/agkrl/icons/blob/main/webpack.svg" width="64" height="64" alt="webpack" />
+<img src="https://github.com/agkrl/icons/blob/main/windows.svg" width="64" height="64" alt="windows" />
+<img src="https://github.com/agkrl/icons/blob/main/linux.svg" width="64" height="64" alt="linux" />
 
 <!--
 **agkrl/agkrl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
