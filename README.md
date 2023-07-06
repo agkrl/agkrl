@@ -1,5 +1,5 @@
 ### Hi there 👋
-![https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl!]([https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge!](https://vk.com/agkrl))
+![https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge]([https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge!](https://vk.com/agkrl))
 
 <img src="https://github.com/agkrl/icons/blob/main/babel.svg" width="64" height="64" alt="babel" />
 <img src="https://github.com/agkrl/icons/blob/main/bootstrap.svg" width="64" height="64" alt="bootstrap" />
