@@ -3,7 +3,7 @@
 
 ![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg)
 
-[![Codewars Badge](https://www.codewars.com/users/dhanushka/badges/large)](https://www.codewars.com/users/agkrl)
+[![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
 
 <img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
 
