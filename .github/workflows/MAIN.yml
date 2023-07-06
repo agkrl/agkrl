@@ -1,8 +1,8 @@
-name: Contribution snake
+name: SNAKE
 
 on:
   schedule: # execute every 12 hours
-    - cron: "0 0/24 * * *"
+    - cron: "0 0/12 * * *"
   workflow_dispatch:
 
 jobs:
