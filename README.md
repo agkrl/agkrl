@@ -7,6 +7,9 @@
 
 [![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
 
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://github.com/agkrl/github-readme)
+
+
 <img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
 
 <img src="https://github.com/agkrl/icons/blob/main/babel.svg" width="64" height="64" alt="babel" />
