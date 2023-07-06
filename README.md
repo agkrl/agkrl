@@ -1,7 +1,7 @@
 ### Hi there 👋
 ![https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl!](https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge&link=https://vk.com/agkrl)
 
-![https://github.com/agkrl/icons/blob/main/babel.svg!]
+![https://github.com/agkrl/icons/blob/main/babel.svg!](https://github.com/agkrl/icons/blob/main/babel.svg)
 
 
 <!--
