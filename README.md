@@ -1,9 +1,7 @@
 ### Hi there 👋
 <a href="https://vk.com/agkrl"><img src="https://img.shields.io/badge/Вконтакте-0077FF?logo=vk&logoColor=white&style=for-the-badge" alt="vkontakte" /><a/>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
+![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg)
 
 <img src="https://komarev.com/ghpvc/?username=agkrl&style=flat-square&color=blue" alt=""/>
 
@@ -34,6 +32,10 @@
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=agkrl&theme=dark&background=000000)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=agkrl&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+<!-- BLOG-POST-LIST:START -->
+
+<!-- BLOG-POST-LIST:END -->
 
 <!--
 **agkrl/agkrl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
