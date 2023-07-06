@@ -3,7 +3,7 @@
 <a href="https://t.me/agkiril"><img src="https://img.shields.io/badge/Телеграм-29AAEC?logo=telegram&logoColor=white&style=for-the-badge" alt="telegram" /><a/>
 <a href="https://vk.com/agkrl"><img src="https://img.shields.io/badge/Whatsapp-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" alt="whatsapp" /><a/>
 
-![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg)
+<!--- ![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg) -->
 
 [![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
 
