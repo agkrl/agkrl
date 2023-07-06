@@ -24,6 +24,8 @@
 <img src="https://github.com/agkrl/icons/blob/main/windows.svg" width="64" height="64" alt="windows" />
 <img src="https://github.com/agkrl/icons/blob/main/linux.svg" width="64" height="64" alt="linux" />
 
+### :fire: My Stats :
+
 <!--
 **agkrl/agkrl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
