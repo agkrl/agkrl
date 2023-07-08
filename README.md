@@ -5,7 +5,7 @@
 
 ![Snake animation](https://github.com/agkrl/agkrl/blob/output/github-contribution-snake.svg)
 
-<!-- [![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl) -->
+[![Codewars Badge](https://www.codewars.com/users/agkrl/badges/large)](https://www.codewars.com/users/agkrl)
 <!-- [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/api?username=agkrl)](https://leetcode.com/agkrl/) -->
 
 
