@@ -1,0 +1,11 @@
+domain: agkrl.github.io
+url: https://agkrl.github.io
+baseurl: "/"
+lang: "ru-RU"
+title: "My website"
+description: "Description for my website"
+author: "Agafonov Kirill"
+
+collections:
+  projects:
+    output: true
