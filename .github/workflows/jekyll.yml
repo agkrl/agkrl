@@ -37,8 +37,12 @@ jobs:
           destination: ./_site
       - name: nodejs
         run: ./install.sh
+      - name: listing directory
+        run: ls -la
+      - name: versions
+        run: node -v && npm -v
       - name: Gulp build
-        run: npm install && npm run gulp:build
+        run: npm install && ls -la ./node_modules/ && npm run gulp:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
