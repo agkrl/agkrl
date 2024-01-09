@@ -36,7 +36,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: nodejs
-        run: sudo apt install nodejs npm && sudo npm -g install gulp
+        run: sudo sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm && sudo npm -g install gulp
       - name: Gulp build
         run: gulp build
       - name: Upload artifact
