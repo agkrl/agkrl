@@ -1,0 +1,21 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "arrowParens": "always",
+  "quoteProps": "preserve",
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "singleAttributePerLine": true,
+  "trailingComma": "es5",
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

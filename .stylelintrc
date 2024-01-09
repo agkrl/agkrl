@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-rational-order"
+  ],
+  "overrides": [
+    {
+      "files": ["*.css", "*.scss"],
+      "customSyntax": "postcss-scss",
+      "rules": {
+        "number-max-precision": 10,
+        "string-quotes": "double",
+        "font-family-name-quotes": "always-unless-keyword"
+      }
+    }
+  ]
+}

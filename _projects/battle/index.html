@@ -1,0 +1,1414 @@
+---
+layout: project
+name: battle
+title: Battle
+permalink: /:collection/:path
+---
+
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1" />
+        <title>Document</title>
+        <meta
+            name="description"
+            content="asdada" />
+        <meta
+            name="keywords"
+            content="asdda" />
+        <script
+            defer="defer"
+            src="app.js"></script>
+        <link
+            href="app.css"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <header class="header bg-y relative overflow-hidden">
+            <span
+                class="box box--tl"
+                style="--bg: #ffb628"></span>
+            <span
+                class="box box--tr"
+                style="--bg: #ffb628"></span>
+            <span
+                class="box box--bl"
+                style="--bg: #ffb628"></span>
+            <span
+                class="box box--br"
+                style="--bg: #ffb628"></span>
+            <div class="container flex justify-between items-center">
+                <a
+                    class="logo"
+                    href="/">
+                    <img
+                        source="images/logo.webp"
+                        alt="логотип"
+                        width="170"
+                        height="75" />
+                </a>
+                <div
+                    id="hamburger"
+                    class="h-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="menu">
+                    <a
+                        href="#section1"
+                        class="menu__link">
+                        Как будет проходить
+                    </a>
+                    <a
+                        href="#section2"
+                        class="menu__link">
+                        Кто может участвовать
+                    </a>
+                    <a
+                        href="#section3"
+                        class="menu__link">
+                        Тарифы
+                    </a>
+                    <a
+                        href="#section4"
+                        class="menu__link">
+                        Организаторы
+                    </a>
+                    <a
+                        href="#section5"
+                        class="menu__link">
+                        Контакты
+                    </a>
+                    <a
+                        href="#section6"
+                        class="menu__link menu__link--active">
+                        Участвовать
+                    </a>
+                </nav>
+            </div>
+            <div class="container">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 261.1 106.15"
+                    class="t absolute left-0 top-0"
+                    id="t-main">
+                    <polygon
+                        points="27.33 52.25 176.67 99.42 226.83 13.75 27.33 52.25"
+                        style="fill: #f21c11" />
+                </svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 261.1 106.15"
+                    id="t"
+                    class="t absolute left-0 top-0">
+                    <polygon
+                        points="0 36.83 4.06 36.22 3.28 38.39 0 36.83"
+                        style="fill: #39f" />
+                    <polygon
+                        points="19.43 41.1 24.86 39.38 23.7 42.44 19.43 41.1"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="60.55 24.74 59.78 26.9 56.5 25.35 60.55 24.74"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="75.98 8.27 70.73 6.71 73.35 3.9 75.98 8.27"
+                        style="fill: #e0241b" />
+                    <polygon
+                        points="91.2 16.02 95.26 15.41 94.48 17.57 91.2 16.02"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="244.39 7.22 248.44 6.61 247.67 8.78 244.39 7.22"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="252.29 33.88 256.34 33.27 255.56 35.43 252.29 33.88"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="40.49 69.82 44.54 69.21 43.76 71.38 40.49 69.82"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="36.17 104.6 40.22 103.99 39.44 106.15 36.17 104.6"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="204 86.79 208.06 86.18 207.28 88.35 204 86.79"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="190.31 99.21 194.36 98.6 193.58 100.76 190.31 99.21"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="207.17 56.11 211.22 55.5 210.44 57.67 207.17 56.11"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="77.06 33.15 81.11 30.38 84.67 35.88 77.06 33.15"
+                        style="fill: #e0241b" />
+                    <polygon
+                        points="87.44 35.17 89.94 41.61 93.99 39.83 87.44 35.17"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="119.02 12.97 109.3 51.08 130.3 32.03 119.02 12.97"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="134.75 8.69 137.48 15.31 141.37 13.36 134.75 8.69"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="145.82 17.4 149.32 15.46 151.88 19.74 145.82 17.4"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="175.15 14.17 179.26 15.33 180.38 12.17 175.15 14.17"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="46.08 86.58 57.33 78.42 56.17 86.46 46.08 86.58"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="65.21 65.12 67.83 71.38 71.79 69.5 65.21 65.12"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="81 72.25 88.29 68 94.54 77.92 81 72.25"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="100.62 90.5 103.83 88.42 106.17 92.5 100.62 90.5"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="36.01 30.11 50.46 53.11 71.79 45.67 36.01 30.11"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="52.25 64.9 55.53 63.01 58.08 67.24 52.25 64.9"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="68.28 86.37 72 89.1 67.72 94.54 68.28 86.37"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="139.25 92.68 142.97 93.79 144.36 90.74 139.25 92.68"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="184.78 83.07 189.06 80.18 192.33 86.18 184.78 83.07"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="214.82 99.4 221.21 103.68 217.1 105.63 214.82 99.4"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="179.86 54.6 192.86 77.71 213.14 71.71 179.86 54.6"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="208.36 62.06 211.53 60.28 214.42 64.17 208.36 62.06"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="226.83 68.06 231.17 74.5 224.94 81.28 226.83 68.06"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="189.04 25.08 195.33 29.29 191.25 31.46 189.04 25.08"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="224.54 25.37 230.08 23.75 228.46 26.42 224.54 25.37"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="253.79 94.92 256.83 93 259.33 96.96 253.79 94.92"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="255.56 63.49 261.1 61.54 259.44 64.49 255.56 63.49"
+                        style="fill: #46b624" />
+                    <polygon
+                        points="199.72 2 203.06 0 205.72 4.11 199.72 2"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="188.22 43.94 233.5 32.67 223.39 58.5 188.22 43.94"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="155 44.5 157.33 15.33 170.67 24.67 155 44.5"
+                        style="fill: #d60505" />
+                </svg>
+                <div
+                    class="flex flex-col py-10 items-center justify-between content-between">
+                    <div
+                        class="relative flex flex-col items-center justify-center">
+                        <h2
+                            class="welcome__box welcome__box--big min-w-[300px]">
+                            стань участником
+                        </h2>
+                        <h1 class="welcome__title">
+                            масшта5ной осенней распродажи
+                        </h1>
+                        <strong
+                            class="welcome__box welcome__box--small welcome__box--rotate welcome__box--blue">
+                            в Челябинске
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="container flex flex-col items-center mt-0 lg:mt-[100px]">
+                <p class="welcome__text pb-8">
+                    <strong>
+                        «Битва Скидок» — городская распродажа,
+                        <br />
+                    </strong>
+                    которая пройдет в розничных магазинах и компаниях
+                    Челябинска. Рекламная кампания проекта охватит более
+                    миллиона жителей города и области.
+                </p>
+                <button class="button">участвовать</button>
+            </div>
+        </header>
+        <section
+            class="section"
+            id="section1">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title">
+                        <span class="section__title--yellow">
+                            как будет проходить?
+                        </span>
+                    </h2>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div
+                            class="circle"
+                            id="c1"
+                            color="red"
+                            progress="30"
+                            color="red">
+                            <div class="circle--in"><span>01.</span></div>
+                        </div>
+                        <h3 class="item__title">Сбор заявок</h3>
+                        <div class="item__text">
+                            <p>
+                                Мы объединим от 30 до 50 розничных магазинов и
+                                компаний Челябинска в одном значимом городском
+                                мероприятии — «Битве Скидок».
+                            </p>
+                            <p>
+                                Для участия в акции от вас нужно лишь
+                                подготовить интересные скидочные предложения на
+                                свои товары и услуги.
+                            </p>
+                        </div>
+                        <a
+                            href="#modal-bid"
+                            class="item__link"
+                            id="bid">
+                            Оставить заявку на участие
+                        </a>
+                    </div>
+                    <div class="item">
+                        <div
+                            class="circle"
+                            id="c2"
+                            color="green"
+                            progress="50"
+                            color="green">
+                            <div class="circle--in"><span>02.</span></div>
+                        </div>
+                        <h3 class="item__title">Запуск рекламы</h3>
+                        <div class="item__text">
+                            <p>
+                                За месяц до мероприятия мы запустим рекламную
+                                кампанию по Челябинску и области с общим охватом
+                                — 1 500 000 человек.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div
+                            class="circle"
+                            id="c3"
+                            color="orange"
+                            progress="100"
+                            color="orange">
+                            <div class="circle--in"><span>03.</span></div>
+                        </div>
+                        <h3 class="item__title">Распродажа</h3>
+                        <div class="item__text">
+                            <p>
+                                23, 24 и 25 сентября мы проведем «Битву Скидок»,
+                                о которой к моменту старта будут знать более
+                                миллиона жителей города и области.
+                            </p>
+                            <p>
+                                В дни акции люди придут в магазины-участники не
+                                просто посмотреть, а целенаправленно покупать.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="section bg-b-main overflow-hidden"
+            id="section2">
+            <span
+                class="box box--tl"
+                style="--bg: #007feb"></span>
+            <span
+                class="box box--tr"
+                style="--bg: #007feb"></span>
+            <span
+                class="box box--bl"
+                style="--bg: #007feb"></span>
+            <span
+                class="box box--br"
+                style="--bg: #007feb"></span>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title mb-10">
+                        <span
+                            class="section__title--white section__title--green">
+                            кто может участвовать?
+                        </span>
+                    </h2>
+                </div>
+                <div class="categories">
+                    <div class="category">
+                        <img
+                            source="images/barrow-with-construction-materials.png"
+                            alt="иконка"
+                            class="category__icon"
+                            width="60"
+                            height="60" />
+                        <span class="category__text">стройматериалы</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/bread-basket.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">продукты</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/camping-tent.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">товары для отдыха</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/driving.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">
+                            автомобили и комплектующие
+                        </span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/dumbbells-couple.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">Фитнес-центры</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/glasses.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">Салоны оптики</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/health-center.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">медицинские центры</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/house.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">Загородные поселки</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/interlocking-rings.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">Ювелирные изделия</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/military-boot.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">Обувь</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/restaurant.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">посуда</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/rocking-horse.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">детские товары</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/target.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">спортивные товары</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/television.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">бытовая электроника</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/tooth.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">стаматологии</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/urban-buildings.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">
+                            застройщики недвижимости
+                        </span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/wedding-suit.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">одежда</span>
+                    </div>
+                    <div class="category">
+                        <img
+                            width="60"
+                            height="60"
+                            source="images/women-coat.png"
+                            alt="иконка"
+                            class="category__icon" />
+                        <span class="category__text">меха</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h3 class="section__subtitle text-white pb-10">
+                        Станьте частью масштабного городского проекта
+                    </h3>
+                    <button class="button">участвовать</button>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title">
+                        <span class="section__title--yellow">
+                            зачем вам нужна битва скидок?
+                        </span>
+                    </h2>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <div class="circle">
+                            <div class="circle--in">
+                                <img
+                                    class="item__icon"
+                                    source="images/line-chart.png"
+                                    alt="иконка"
+                                    width="30%"
+                                    height="30%" />
+                            </div>
+                        </div>
+                        <h3 class="item__title">Прибыль и новые клиенты</h3>
+                        <div class="item__text">
+                            <p>
+                                В дни акции вы сможете увеличить выручку в
+                                среднем в 2 раза от обычной. Мы приведем вам
+                                новую аудиторию из интернета и социальных сетей
+                                — вы получите новых покупателей и расширите
+                                клиентскую базу.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="circle">
+                            <div class="circle--in">
+                                <img
+                                    class="item__icon"
+                                    source="images/boxes.png"
+                                    alt="иконка"
+                                    width="30%"
+                                    height="30%" />
+                            </div>
+                        </div>
+                        <h3 class="item__title">
+                            Избавление от излишних товарных запасов
+                        </h3>
+                        <div class="item__text">
+                            <p>
+                                Распродажа — не только способ привлечь новых
+                                клиентов, но и, в том числе,продать неходовые
+                                товарные остатки и высвободить оборотные
+                                средства.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="circle">
+                            <div class="circle--in">
+                                <img
+                                    class="item__icon"
+                                    source="images/chat.png"
+                                    alt="иконка"
+                                    width="30%"
+                                    height="30%" />
+                            </div>
+                        </div>
+                        <h3 class="item__title">Распродажа</h3>
+                        <div class="item__text">
+                            <p>
+                                23, 24 и 25 сентября мы проведем «Битву Скидок»,
+                                о которой к моменту старта будут знать более
+                                миллиона жителей города и области.
+                            </p>
+                            <p>
+                                В дни акции люди придут в магазины-участники не
+                                просто посмотреть, а целенаправленно покупать.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h3 class="section__subtitle mb-10">
+                        Узнайте больше о преимуществах в нашей презентации
+                    </h3>
+                    <button class="button">скачать презентацию</button>
+                </div>
+            </div>
+        </section>
+        <section
+            class="section bg-no-repeat bg-cover pt-0 md:pt-10 bg-yellow"
+            id="parallax">
+            <div class="container">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 430.56 353.28"
+                    id="t2-main"
+                    class="absolute top-[-130px] left-[-105px] t">
+                    <polygon
+                        points="378.56 19.67 300.11 130.11 43.56 86.67 378.56 19.67"
+                        style="fill: #de281f" />
+                </svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 430.56 353.28"
+                    class="absolute top-[-130px] left-[-105px] t"
+                    id="t2">
+                    <polygon
+                        points="154.22 42.89 321.78 31.33 242.44 84.11 154.22 42.89"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="10.11 49.78 16.89 48.78 15.33 52.11 10.11 49.78"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="25.08 55.94 33.64 52.89 31.53 57.72 25.08 55.94"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="0 63.39 57.94 88.67 23.11 100.94 0 63.39"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="55.39 81.11 66.44 88.5 59.83 91.78 55.39 81.11"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="77.86 94.56 83.08 91.06 87.58 98.06 77.86 94.56"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="76.33 47.92 82.72 46.75 81.39 50.81 76.33 47.92"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="62.11 16.78 70.28 29 53.17 22.39 62.11 16.78"
+                        style="fill: #e0241b" />
+                    <polygon
+                        points="115.06 36 122 35.22 120.5 38.5 115.06 36"
+                        style="fill: #6eb640" />
+                    <polygon
+                        points="111.67 68.18 122 75.35 115.94 78.85 111.67 68.18"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="145.22 20.61 151.5 19.78 149.94 23.33 145.22 20.61"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="245.22 17.56 250.67 14.11 255 21.56 245.22 17.56"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="314.78 29.67 325.22 37.11 319 40.56 314.78 29.67"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="385 27.78 394 25 391.67 29.67 385 27.78"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="403.94 1.33 410.61 0 408.61 4.11 403.94 1.33"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="335.72 58.89 375.39 48.44 366.5 72.11 335.72 58.89"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="416.56 44.11 423.22 43 421.56 46.89 416.56 44.11"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="346.22 89.56 351.67 86.44 355.56 93.44 346.22 89.56"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="421.89 91.89 430.56 88.78 428.22 93.44 421.89 91.89"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="375.67 98.61 383.11 109.39 372.22 120.72 375.67 98.61"
+                        style="fill: #62c543" />
+                    <polygon
+                        points="338.33 115.11 343.67 112 348.44 119 338.33 115.11"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="300.88 115.22 307.43 111 313.65 120 300.88 115.22"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="338.33 129.39 344.89 128.17 344.89 132.06 338.33 129.39"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="419.22 143.28 424.67 139.39 428.89 146.83 419.22 143.28"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="317.44 149.44 324 148.67 321.67 151.67 317.44 149.44"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="208.83 148.5 216.94 145.06 214.61 150.17 208.83 148.5"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="212.89 101.39 266.44 129.06 233.11 138.72 212.89 101.39"
+                        style="fill: #62c543" />
+                    <polygon
+                        points="143.22 183.61 149.89 182.5 148.67 185.94 143.22 183.61"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="145.83 217.37 153.94 214.71 151.28 219.71 145.83 217.37"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="56.02 236.78 63.02 235.56 61.47 238.67 56.02 236.78"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="151.11 283.78 160 280.67 157.33 285.33 151.11 283.78"
+                        style="fill: #37bb0f" />
+                    <polygon
+                        points="95.89 306.06 101.22 303.39 105.56 310.39 95.89 306.06"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="293.17 330.44 298.61 327.33 302.83 333.89 293.17 330.44"
+                        style="fill: #d60505" />
+                    <polygon
+                        points="333.78 275.06 340.67 273.83 338.78 278.17 333.78 275.06"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="389.67 215.94 396.33 215.17 394.78 219.39 389.67 215.94"
+                        style="fill: #43a8f6" />
+                    <polygon
+                        points="131.22 350.94 137.89 349.72 136.78 353.28 131.22 350.94"
+                        style="fill: #43a8f6" />
+                </svg>
+                <div class="relative z-50 text-center">
+                    <p class="text-center text-black text-base pt-2">
+                        <span class="inline-block max-w-[400px]">
+                            Это будет мероприятие городского масштаба. О вашей
+                            компании узнают все жители
+                        </span>
+                    </p>
+                    <div
+                        class="welcome__box welcome__box--blue welcome__box--rotate my-5 md:my-10">
+                        Челябинска и области
+                    </div>
+                    <h2 class="text-5xl font-bold md:text-white text-black">
+                        > 1 500 000 человек
+                    </h2>
+                </div>
+                <div
+                    class="map relative mt-[5rem] md:mt-[15rem] overflow-hidden">
+                    <div
+                        class="absolute left-[35%] top-[10%] w-[50%] hidden md:block">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 15.11 21.63"
+                            width="60"
+                            height="90"
+                            class="point absolute left-[32px] top-[-85px]">
+                            <path
+                                d="m15.03,7.01C14.57,4.15,12.12.28,8.08.01,3.71-.27.69,3.88.11,7.01c-.16.88-.13,1.65,0,2.56.61,4.28,7.36,12.06,7.36,12.06,0,0,6.99-8.23,7.56-12.44.07-.55.14-1.27,0-2.17Zm-6.97,4.67c-2.43.29-4.71-1.99-4.5-4.44.17-1.98,1.91-3.79,4.11-3.72,2.13.06,3.78,1.84,3.89,3.89.11,2.14-1.51,4.04-3.5,4.28Z"
+                                style="fill: #27d605" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 15.11 21.63"
+                            width="60"
+                            height="90"
+                            class="point absolute left-[335px] top-[160px]">
+                            <path
+                                d="m15.03,7.01C14.57,4.15,12.12.28,8.08.01,3.71-.27.69,3.88.11,7.01c-.16.88-.13,1.65,0,2.56.61,4.28,7.36,12.06,7.36,12.06,0,0,6.99-8.23,7.56-12.44.07-.55.14-1.27,0-2.17Zm-6.97,4.67c-2.43.29-4.71-1.99-4.5-4.44.17-1.98,1.91-3.79,4.11-3.72,2.13.06,3.78,1.84,3.89,3.89.11,2.14-1.51,4.04-3.5,4.28Z"
+                                style="fill: #27d605" />
+                        </svg>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 15.11 21.63"
+                            width="60"
+                            height="90"
+                            class="point absolute left-[180px] bottom-[40px]">
+                            <path
+                                d="m15.03,7.01C14.57,4.15,12.12.28,8.08.01,3.71-.27.69,3.88.11,7.01c-.16.88-.13,1.65,0,2.56.61,4.28,7.36,12.06,7.36,12.06,0,0,6.99-8.23,7.56-12.44.07-.55.14-1.27,0-2.17Zm-6.97,4.67c-2.43.29-4.71-1.99-4.5-4.44.17-1.98,1.91-3.79,4.11-3.72,2.13.06,3.78,1.84,3.89,3.89.11,2.14-1.51,4.04-3.5,4.28Z"
+                                style="fill: #27d605" />
+                        </svg>
+                        <img
+                            class="not-loader min-w-[752px]"
+                            src="images/road.png"
+                            alt="road"
+                            width="100%"
+                            height="100%"
+                            id="road" />
+                    </div>
+                    <div
+                        class="map-row"
+                        id="row1">
+                        <div class="hidden md:block flex-1 relative"></div>
+                        <div class="flex-1 relative">
+                            <div
+                                class="map-item"
+                                data-n="1">
+                                <h3 class="map-item__title">Челябинск</h3>
+                                <p class="map-item__text">
+                                    Мы запустим рекламную кампанию по всему
+                                    Челябинску и охватим аудиторию размером
+                                    700-800 тысяч человек через интернет,
+                                    соцсети и наружную рекламу.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="map-row"
+                        id="row2">
+                        <div class="flex-1 relative">
+                            <div
+                                class="map-item"
+                                data-n="2">
+                                <h3 class="map-item__title">Область</h3>
+                                <p class="map-item__text">
+                                    Размещаем рекламу по всей Челябинской
+                                    области, получаем дополнительный охват
+                                    500-700 тысяч человек — расширяем зону
+                                    воздействия и еще больше усиливаем ажиотаж.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block flex-1 relative"></div>
+                    </div>
+                    <div class="map-row empty"></div>
+                    <div
+                        class="map-row"
+                        id="row3">
+                        <div
+                            class="map-item"
+                            data-n="3">
+                            <h3 class="map-item__title">Событие</h3>
+                            <p class="map-item__text">
+                                Жители Челябинска и жители области, которые
+                                приедут в Челябинск на общегородскую распродажу,
+                                целенаправленно будут тратить деньги на покупки
+                                в магазинах-участниках акции.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section bg-y overflow-hidden">
+            <span
+                class="box box--tl"
+                style="--bg: #ffdb49"></span>
+            <span
+                class="box box--tr"
+                style="--bg: #ffdb49"></span>
+            <span
+                class="box box--bl"
+                style="--bg: #ffdb49"></span>
+            <span
+                class="box box--br"
+                style="--bg: #ffdb49"></span>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title mb-10">
+                        <span class="section__title--underlinewhite">
+                            рекламная компания "битвы скидок"
+                        </span>
+                    </h2>
+                    <small class="section__text mb-10">
+                        Мы будем использовать все рекламные возможности
+                        социальных сетей, городских сайтов и поисковиков. В
+                        оффлайне основным каналом будет наружная реклама.
+                    </small>
+                </div>
+                <div class="social">
+                    <div class="social-item">
+                        <a
+                            href="#"
+                            class="social-item-image">
+                            <img
+                                source="images/vk.png"
+                                alt="иконка"
+                                class="social-item-image__image mx-auto"
+                                width="30%"
+                                height="100%" />
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a
+                            href="#"
+                            class="social-item-image">
+                            <img
+                                source="images/facebook.png"
+                                alt="иконка"
+                                class="social-item-image__image"
+                                width="100%"
+                                height="100%" />
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a
+                            href="#"
+                            class="social-item-image">
+                            <img
+                                source="images/ok.png"
+                                alt="иконка"
+                                class="social-item-image__image"
+                                width="100%"
+                                height="100%" />
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a
+                            href="#"
+                            class="social-item-image">
+                            <img
+                                source="images/instagram.png"
+                                alt="иконка"
+                                class="social-item-image__image"
+                                width="100%"
+                                height="100%" />
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a
+                            href="#"
+                            class="social-item-image">
+                            <img
+                                source="images/yandex.png"
+                                alt="иконка"
+                                class="social-item-image__image"
+                                width="100%"
+                                height="100%" />
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a
+                            class="social-item-image"
+                            href="#">
+                            <img
+                                source="images/google.png"
+                                alt="иконка"
+                                class="social-item-image__image"
+                                width="100%"
+                                height="100%" />
+                        </a>
+                    </div>
+                </div>
+                <h3 class="section__subtitle">
+                    Приведем людей из интернета в ваш магазин!
+                </h3>
+            </div>
+        </section>
+        <section
+            class="section"
+            id="section3">
+            <div class="container">
+                <div class="text-center">
+                    <h2
+                        class="section__title section__title--firstletter mb-10">
+                        <span class="section__title--yellow">тарифы</span>
+                    </h2>
+                </div>
+                <small class="section__text">
+                    Стоимость участия в «Битве Скидок» от 49.990 рублей.
+                    Выберите наиболее подходящий для вас тариф
+                </small>
+                <div class="overflow-x-scroll md:overflow-x-auto">
+                    <table
+                        class="mt-10"
+                        cellpadding="25px">
+                        <thead>
+                            <th></th>
+                            <th>&laquo;Участник&raquo;</th>
+                            <th>&laquo;Участник&nbsp;&plus;&raquo;</th>
+                            <th>&laquo;ВИП&raquo;</th>
+                            <th class="relative">
+                                &laquo;Хэдлайнер&raquo;
+                                <div
+                                    class="welcome__box welcome__box--small welcome__box--rotate welcome__box--blue absolute top-[-30px] left-[-30px] z-10">
+                                    Доступно только 4 места!
+                                </div>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="w-4/12">
+                                    <p>
+                                        Размещение участника во всех сообществах
+                                        в социальных сетях проекта, вхождение в
+                                        подборки по категориям
+                                    </p>
+                                </td>
+                                <td class="w-2/12">
+                                    <span class="text-g">&#10004;</span>
+                                </td>
+                                <td class="w-2/12">
+                                    <span class="text-g">&#10004;</span>
+                                </td>
+                                <td class="w-2/12">
+                                    <span class="text-g">&#10004;</span>
+                                </td>
+                                <td class="w-2/12">
+                                    <span class="text-g">&#10004;</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Фирменная символика
+                                        мероприятия:фирменный стиль, правила
+                                        оформления, макеты листовок, наклеек и
+                                        ценников.
+                                    </p>
+                                </td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Консультация маркетологов, как правильно
+                                        подготовится к мероприятию.
+                                    </p>
+                                </td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Размещение участника во всех сообществах
+                                        в социальных сетях проекта, вхождение в
+                                        подборки по категориям с отдельной
+                                        рекламной кампанией
+                                    </p>
+                                </td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Отдельная рекламная кампания по целевой
+                                        аудитории участника с охватом от 100 до
+                                        200 тысяч человек.
+                                    </p>
+                                </td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Главный партнер проекта. Присутствие на
+                                        всех рекламных носителях и во всех
+                                        каналах коммуникаций Битвы Скидок
+                                        (соцсети, сайты, билборды)
+                                    </p>
+                                </td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="tire">-</span></td>
+                                <td><span class="text-g">&#10004;</span></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a
+                                        class="table__link"
+                                        href="#">
+                                        узнать цену
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        class="table__link"
+                                        href="#">
+                                        узнать цену
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        class="table__link"
+                                        href="#">
+                                        узнать цену
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        class="table__link"
+                                        href="#">
+                                        узнать цену
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section bg-b-secondary overflow-hidden">
+            <span
+                class="box box--tl"
+                style="--bg: #44a9ff"></span>
+            <span
+                class="box box--tr"
+                style="--bg: #44a9ff"></span>
+            <span
+                class="box box--bl"
+                style="--bg: #44a9ff"></span>
+            <span
+                class="box box--br"
+                style="--bg: #44a9ff"></span>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title text-white mb-10">
+                        <span class="section__title--yellow">
+                            часто задаваемые вопросы
+                        </span>
+                    </h2>
+                </div>
+                <ul class="accordion">
+                    <li class="accordion__item">
+                        <span class="accordion__title">
+                            Вдруг мою компанию не заметят среди остальных?
+                        </span>
+                        <div class="accordion-content">
+                            <p>
+                                Мы проведем рекламную кампанию с охватом в
+                                десятки раз больше, чем вы можете запустить
+                                сами. Чем больше участников в «Битве скидок»,
+                                тем больше общий охват аудитории.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="accordion__item">
+                        <span class="accordion__title">
+                            Зачем делать скидки?
+                        </span>
+                    </li>
+                    <li class="accordion__item">
+                        <span class="accordion__title">
+                            Как сформирована цена участия?
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section
+            class="section"
+            id="section4">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section__title mb-10">
+                        <span class="section__title--yellow">
+                            Организаторы проекта
+                        </span>
+                    </h2>
+                </div>
+                <div class="text-center">
+                    <div class="relative">
+                        <img
+                            class="my-10 inline-block"
+                            source="images/sarafan.png"
+                            alt="sarafan"
+                            class="market"
+                            height="90"
+                            width="200" />
+                    </div>
+                    <div class="mb-10">
+                        <p>
+                            Мы — маркетинговое агентство Sarafan. С 2013 года
+                            приводим людей из интернета в розничные магазины. Мы
+                            работаем с розничной торговлей и знаем все, ну или
+                            почти все, «подводные камни». Специализируемся на
+                            региональных городах-миллионниках.
+                        </p>
+                        <p>
+                            Провели более 150 распродаж в Екатеринбурге, Казани,
+                            Челябинске, Нижнем Новгороде, Перми, Тюмени и
+                            Санкт-Петербурге. Рост выручки во время акций у
+                            наших клиентов составляет 300-800%.
+                        </p>
+                        <p>
+                            Мы — фанаты маркетинга. Наша страсть — создавать
+                            очереди в розничных магазинах. Техники, которые мы
+                            используем, проверены и эффективны. Секрет в том,
+                            что мы не боимся работать с «живой аудиторией» и
+                            приводим людей из онлайна в оффлайн.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[url('../images/b3.svg')] bg-no-repeat bg-cover">
+                <div class="container">
+                    <h3 class="section__title mb-10">
+                        <span>Остались вопросы?</span>
+                    </h3>
+                    <small class="section__text">
+                        Мы всегда рады обсудить с вами подробности. Свяжитесь с
+                        нами по указанным контактам в форме или оставьте свои
+                        контактные данные!
+                    </small>
+                    <ul
+                        class="items"
+                        id="section5">
+                        <li class="item">
+                            <div
+                                class="circle"
+                                id="circle1"
+                                progress="65"
+                                color="green">
+                                <div class="circle--in">
+                                    <img
+                                        source="images/phone.png"
+                                        alt="иконка"
+                                        height="30%"
+                                        width="30%" />
+                                </div>
+                            </div>
+                            <strong class="item__title">
+                                +7 (351) 750-67-29
+                            </strong>
+                        </li>
+                        <li class="item">
+                            <div
+                                class="circle"
+                                id="circle2"
+                                progress="30"
+                                color="red">
+                                <div class="circle--in">
+                                    <img
+                                        source="images/point.png"
+                                        alt="иконка"
+                                        height="30%"
+                                        width="30%" />
+                                </div>
+                            </div>
+                            <strong class="item__title">
+                                г. Челябинск, ул. Воровского 15-г, 5 этаж
+                            </strong>
+                        </li>
+                        <li class="item">
+                            <div
+                                class="circle"
+                                id="circle3"
+                                progress="10"
+                                color="orange">
+                                <div class="circle--in">
+                                    <img
+                                        source="images/envelope.png"
+                                        alt="иконка"
+                                        height="30%"
+                                        width="30%" />
+                                </div>
+                            </div>
+                            <a
+                                href="mailto:bitvaskidok@gmail.com"
+                                class="item__title">
+                                bitvaskidok@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                    <form
+                        id="myform"
+                        action="/post"
+                        method="post"
+                        enctype="application/x-www-form-urlencoded"
+                        autocomplete="on">
+                        <div class="form__row">
+                            <div class="form-col">
+                                <input
+                                    id="input-name"
+                                    name="name"
+                                    class="form__input"
+                                    placeholder="Имя"
+                                    autocomplete="cc-name"
+                                    inputmode="text"
+                                    minlength="5"
+                                    maxlength="8"
+                                    required />
+                            </div>
+                            <div class="form-col">
+                                <input
+                                    id="input-email"
+                                    name="email"
+                                    class="form__input"
+                                    type="email"
+                                    placeholder="Email"
+                                    autocomplete="email"
+                                    inputmode="email"
+                                    required />
+                            </div>
+                            <div class="form-col">
+                                <input
+                                    id="input-phone"
+                                    name="phone"
+                                    class="form__input"
+                                    type="tel"
+                                    placeholder="Телефон"
+                                    autocomplete="tel"
+                                    inputmode="tel"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form-col">
+                                <input
+                                    id="input-company"
+                                    name="company"
+                                    class="form__input"
+                                    placeholder="Название компании"
+                                    autocomplete="organization"
+                                    inputmode="text"
+                                    minlength="5"
+                                    maxlength="8" />
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form-col">
+                                <textarea
+                                    class="form__input"
+                                    name="text"
+                                    id="input-text"
+                                    cols="30"
+                                    rows="10"
+                                    placeholder="Сообщение"
+                                    inputmode="text"
+                                    minlength="5"
+                                    maxlength="8"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="form__row form__row--center">
+                            <button
+                                type="submit"
+                                class="button">
+                                отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer bg-y text-center">
+            <div class="container">
+                <strong class="block">+7 (351) 750-67-29</strong>
+                <a
+                    class="logo pt-4"
+                    href="#">
+                    <img
+                        source="images/logo.png"
+                        alt="логотип"
+                        width="170"
+                        height="75" />
+                </a>
+            </div>
+        </footer>
+        <div
+            id="scrollup"
+            class="scrollup scrollup--hidden">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="scrollup__icon">
+                <title>arrow-up-thick</title>
+                <path
+                    d="M14,20H10V11L6.5,14.5L4.08,12.08L12,4.16L19.92,12.08L17.5,14.5L14,11V20Z" />
+            </svg>
+        </div>
+        <div
+            class="modal isClosable"
+            id="modal-bid">
+            <div class="modal-content">
+                <h1>hello</h1>
+                <button class="modal-close">close</button>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="modal-thank-you">
+            <div class="modal-content">
+                <h1>thank you</h1>
+                <button class="modal-close">close</button>
+            </div>
+        </div>
+    </body>
+</html>
