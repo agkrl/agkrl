@@ -35,6 +35,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: nodejs
+        run: apt install nodejs npm && npm -g install gulp
       - name: Gulp build
         run: gulp build
       - name: Upload artifact
