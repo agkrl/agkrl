@@ -38,7 +38,7 @@ jobs:
       - name: nodejs
         run: sudo sudo apt update && sudo apt upgrade -y && sudo apt install nodejs npm && sudo npm -g install gulp
       - name: Gulp build
-        run: gulp build
+        run: npm install && gulp build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
