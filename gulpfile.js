@@ -6,10 +6,12 @@ const browserSync = require('browser-sync').create()
 const chokidar = require('chokidar')
 
 function styles() {
-  return src('./assets/styles/main.scss')
+  let result = src('./assets/styles/main.scss')
     .pipe(sass())
     .pipe(postcss())
     .pipe(dest('./_site/assets/css'))
+  browserSync.reload()
+  return result
 }
 
 function serveJekyll(cb) {
@@ -22,6 +24,8 @@ function serveJekyll(cb) {
         'serve',
         '--port',
         4000,
+        '--host',
+        '0.0.0.0',
         '--livereload',
         '--livereload-port',
         35115,
@@ -46,7 +50,7 @@ function buildJekyll() {
 function server() {
   browserSync.init({
     proxy: {
-      target: 'http://localhost:4000',
+      target: 'http://0.0.0.0:4000',
       ws: true,
     },
     port: 8000,
@@ -87,5 +91,5 @@ function start() {
   })
 }
 
-exports.build = styles
+exports.build = series(styles)
 exports.default = series(start)
