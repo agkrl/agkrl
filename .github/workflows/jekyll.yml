@@ -30,17 +30,19 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
       - name: Setup Node ${{ env.NODE_VERSION }} Environment
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Gulp build
-        run: npm install && npm run gulp:build
+        run: npm install && npm run gulp:build && cp ./_site/assets/css/main.css ./
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Copy css to _site
+        run: mv ./main.css ./_site/assets/css/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
