@@ -87,5 +87,5 @@ function start() {
   })
 }
 
-exports.build = series(styles)
+exports.build = styles
 exports.default = series(start)
