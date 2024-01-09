@@ -6,3 +6,4 @@ vendor
 node_modules
 Dockerfile
 .dockerignore
+install-local.sh
