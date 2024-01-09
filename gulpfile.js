@@ -3,15 +3,13 @@ const sass = require('gulp-sass')(require('sass'))
 const postcss = require('gulp-postcss')
 const spawn = require('cross-spawn')
 const browserSync = require('browser-sync').create()
-const chokidar = require('chokidar')
 
 function styles() {
-  let result = src('./assets/styles/main.scss')
+  return src('./assets/styles/main.scss')
     .pipe(sass())
     .pipe(postcss())
+    .pipe(browserSync.reload({ stream: true }))
     .pipe(dest('./_site/assets/css'))
-  browserSync.reload()
-  return result
 }
 
 function serveJekyll(cb) {
@@ -29,6 +27,8 @@ function serveJekyll(cb) {
         '--livereload',
         '--livereload-port',
         35115,
+        '--baseurl',
+        '/agkrl',
       ],
       {
         killSignal: 'SIGINT',
@@ -57,14 +57,6 @@ function server() {
     open: false,
   })
 
-  let siteWatcher = chokidar.watch('./_site', { depth: 1 })
-  siteWatcher.on('raw', () => {
-    setTimeout(() => {
-      styles()
-      browserSync.reload()
-    }, 1000)
-  })
-
   watch(
     [
       './assets/**/*.{scss,js}',
@@ -91,5 +83,6 @@ function start() {
   })
 }
 
+exports.jekyll = series(buildJekyll)
 exports.build = series(styles)
 exports.default = series(start)
