@@ -6,12 +6,10 @@ const browserSync = require('browser-sync').create()
 const chokidar = require('chokidar')
 
 function styles() {
-  let result = src('./assets/styles/main.scss')
+  return src('./assets/styles/main.scss')
     .pipe(sass())
     .pipe(postcss())
     .pipe(dest('./_site/assets/css'))
-  browserSync.reload()
-  return result
 }
 
 function serveJekyll(cb) {
