@@ -34,12 +34,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Styles
-        run: mkdir ./css && cp ./_site/css/*.css ./css
       - name: Install node_modules
         run: npm install
       - name: Gulp build
         run: npm run gulp:build
+      - name: Styles
+        run: mkdir ./css && cp ./_site/css/*.css ./css
       - name: Scripts
         run: mkdir ./js && cp ./_site/js/*.js ./js
       - name: Build with Jekyll
