@@ -34,15 +34,23 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Styles
+        run: mkdir ./css && cp ./_site/assets/css/*.css ./css
+      - name: Scripts
+        run: mkdir ./js && cp ./_site/assets/js/*.js ./js
+      - name: Install node_modules
+        run: npm install
       - name: Gulp build
-        run: npm install && npm run gulp:build && cp ./_site/assets/css/main.css ./
+        run: npm run gulp:build
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-      - name: Copy css to _site
-        run: mv ./main.css ./_site/assets/css/
+      - name: Remove folders
+        run: rm -rf ./css && rm -rf ./js
+      - name: Minify html
+        run: npm run gulp:html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

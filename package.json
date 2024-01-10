@@ -6,7 +6,8 @@
   "scripts": {
     "gulp:build": "gulp build",
     "gulp:server": "gulp",
-    "gulp:jekyll": "gulp jekyll"
+    "gulp:jekyll": "gulp jekyll",
+    "gulp:html": "gulp html"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
+    "babel-preset-minify": "^0.5.2",
     "browser-sync": "^2.29.3",
     "chokidar": "^3.5.3",
     "cross-spawn": "^7.0.3",
@@ -28,6 +30,8 @@
     "cssnano-preset-default": "^6.0.1",
     "cssnano-preset-lite": "^3.0.0",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "postcss": "^8.4.32",

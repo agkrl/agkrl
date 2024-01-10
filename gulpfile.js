@@ -3,13 +3,15 @@ const sass = require('gulp-sass')(require('sass'))
 const postcss = require('gulp-postcss')
 const spawn = require('cross-spawn')
 const browserSync = require('browser-sync').create()
+const htmlmin = require('gulp-htmlmin')
+const babeljs = require('gulp-babel')
 
 function styles() {
   return src('./assets/styles/main.scss')
     .pipe(sass())
     .pipe(postcss())
     .pipe(browserSync.reload({ stream: true }))
-    .pipe(dest('./_site/assets/css'))
+    .pipe(dest('./_site/css'))
 }
 
 function serveJekyll(cb) {
@@ -54,20 +56,22 @@ function server() {
       ws: true,
     },
     port: 8000,
-    open: false,
+    open: true,
+    startPath: '/agkrl/',
   })
 
   watch(
     [
-      './assets/**/*.{scss,js}',
       './_includes/**/*.html',
       './_posts/**/*.{html,md}',
       './_layouts/**/*.html',
+      './_projects/**/*.html',
+      './assets/**/*.{js,scss}',
     ],
     {
       delay: 500,
     },
-    styles
+    series(styles, scripts)
   )
 }
 
@@ -77,12 +81,35 @@ function start() {
     if (response) {
       setTimeout(() => {
         styles()
+        scripts()
         server()
       }, 2000)
     }
   })
 }
 
+function html() {
+  return src('./_site/**/*.html')
+    .pipe(
+      htmlmin({
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+      })
+    )
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(dest('./_site/'))
+}
+
+function scripts() {
+  return src('./assets/scripts/**/*.js')
+    .pipe(babeljs())
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(dest('./_site/js/'))
+}
+
+exports.html = series(html)
 exports.jekyll = series(buildJekyll)
-exports.build = series(styles)
+exports.build = series(styles, scripts)
 exports.default = series(start)

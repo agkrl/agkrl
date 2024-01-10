@@ -15,11 +15,12 @@
             content="{{ site.keywords }}" />
         <link
             rel="stylesheet"
-            href="{{ site.baseurl }}/assets/css/main.css" />
+            href="{{ site.baseurl }}/css/main.css" />
     </head>
     <body>
         {% include header.html %} {% include sidebar.html %}
         <main>{{ content }}</main>
         {% include footer.html %}
+        <script src="{{ site.baseurl }}/js/app.js"></script>
     </body>
 </html>
