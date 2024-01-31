@@ -47,8 +47,9 @@ jobs:
         with:
           source: ./
           destination: ./_site
+          verbose: true
       - name: Remove folders
-        run: rm -rf ./css && rm -rf ./js && ls && pwd && ls /github/workspace/./_site
+        run: rm -rf ./css && rm -rf ./js && ls && pwd && ls ./_site
       - name: Minify html
         run: npm run gulp:html
       - name: Upload artifact
