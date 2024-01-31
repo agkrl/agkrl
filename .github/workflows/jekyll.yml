@@ -50,6 +50,8 @@ jobs:
           verbose: true
       - name: Remove folders
         run: rm -rf ./css && rm -rf ./js && ls && pwd && ls ./_site
+      - name: Setup Node ${{ env.NODE_VERSION }} Environment
+        uses: actions/setup-node@v3
       - name: Minify html
         run: npm run gulp:html
       - name: Upload artifact
