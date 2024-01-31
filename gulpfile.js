@@ -6,8 +6,29 @@ const browserSync = require('browser-sync').create()
 const htmlmin = require('gulp-htmlmin')
 const babeljs = require('gulp-babel')
 
+function html() {
+  return src('./_site/**/*.html')
+    .pipe(
+      htmlmin({
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+      })
+    )
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(dest('./_site/'))
+}
+
+function scripts() {
+  return src('./assets/scripts/**/*.js')
+    .pipe(babeljs())
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(dest('./_site/js/'))
+}
+
 function styles() {
-  return src('./assets/styles/main.scss')
+  return src('./assets/styles/**/*.scss')
     .pipe(sass())
     .pipe(postcss())
     .pipe(browserSync.reload({ stream: true }))
@@ -86,27 +107,6 @@ function start() {
       }, 2000)
     }
   })
-}
-
-function html() {
-  return src('./_site/**/*.html')
-    .pipe(
-      htmlmin({
-        removeComments: true,
-        collapseWhitespace: true,
-        minifyCSS: true,
-        minifyJS: true,
-      })
-    )
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(dest('./_site/'))
-}
-
-function scripts() {
-  return src('./assets/scripts/**/*.js')
-    .pipe(babeljs())
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(dest('./_site/js/'))
 }
 
 exports.html = series(html)

@@ -1,1 +1,3 @@
-alert(123)
+;(() => {
+  alert('hello asd')
+})()
